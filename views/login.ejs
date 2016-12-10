@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Login </title>
+</head>
+
+<body>
+<SCRIPT  language=JavaScript> 
+function go(){
+if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
+        document.form.submit(); 
+    } 
+    else{ 
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+    } 
+} 
+</SCRIPT> 
+<FORM name=form action="EXAMEN FINAL">
+
+<P>Usuario:    <INPUT type=text name=login> 
+<P>Contraseña: <INPUT type=password name=password> 
+<INPUT onclick=go() type=button value=Acceder>
+
+
+</body>
+</html>
